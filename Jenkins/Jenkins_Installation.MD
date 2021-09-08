@@ -42,13 +42,14 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
    sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
    yum -y install jenkins
    # Sometimes this installation fails on amazon-linux because of daemonize issue. 
-   ![image](https://user-images.githubusercontent.com/37894194/132466158-8a1944fd-5c73-4bbd-a707-dfa0c8b38771.png)
    # Requires: daemonize
    # Then you will have to install epel-release which provides daemonize. For installing epel-release on amazon-linux, follow the below command
    sudo amazon-linux-extras install epel
    
    ```
-
+   Error Screenshot: 
+   ![image](https://user-images.githubusercontent.com/37894194/132466158-8a1944fd-5c73-4bbd-a707-dfa0c8b38771.png)
+   
    ### Start Jenkins
    ```sh
    # Start jenkins service
