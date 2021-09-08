@@ -47,7 +47,8 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
    sudo amazon-linux-extras install epel
    
    ```
-   Error Screenshot: 
+   ### Error Screenshot: 
+   
    ![image](https://user-images.githubusercontent.com/37894194/132466158-8a1944fd-5c73-4bbd-a707-dfa0c8b38771.png)
    
    ### Start Jenkins
